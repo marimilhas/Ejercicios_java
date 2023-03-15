@@ -43,10 +43,8 @@ public class Punto3 {
         }
         return archivo;
     }
-    private static void escribir_archivo(String nombre){
-
-    }
     private static void codificar(Path archivo_entrada, Path archivo_salida, int desplazo) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new FileWriter(archivo_salida.toFile()));
         for (String str : Files.readAllLines(archivo_entrada)){
             String codigo_cesar = "";
             for (int i = 0; i < str.length(); i++){
@@ -54,10 +52,13 @@ public class Punto3 {
                 char caracter_ascii = (char) (num_ascii + desplazo);
                 codigo_cesar += caracter_ascii;
             }
-            Files.writeString(archivo_salida, codigo_cesar + "\r\n");
+            bw.write(codigo_cesar);
+            bw.newLine();
+            bw.flush();
         }
     }
     private static void decodificar(Path archivo_entrada, Path archivo_salida, int desplazo) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new FileWriter(archivo_salida.toFile()));
         for (String str : Files.readAllLines(archivo_entrada)){
             String codigo_cesar = "";
             for (int i = 0; i < str.length(); i++){
@@ -65,7 +66,9 @@ public class Punto3 {
                 char caracter_ascii = (char) (num_ascii - desplazo);
                 codigo_cesar += caracter_ascii;
             }
-            Files.writeString(archivo_salida, codigo_cesar + "\r\n");
+            bw.write(codigo_cesar);
+            bw.newLine();
+            bw.flush();
         }
     }
     public static void main(String[] args) throws IOException {
