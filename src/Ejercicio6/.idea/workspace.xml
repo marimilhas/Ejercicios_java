@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6238672-314c-42aa-8bb8-869fba1dcb62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Descuento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DescuentoCero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DescuentoFijo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DescuentoPorcentaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
